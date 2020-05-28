@@ -1,21 +1,16 @@
 p {
   font-family: Lato;
 }
+
+.head-welcome {
+  color:#ffa488;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Segoe UI';
+}
 .text-focus-in {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-}
-@-webkit-keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-            filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
-    opacity: 1;
-  }
 }
 @keyframes text-focus-in {
   0% {
@@ -29,4 +24,44 @@ p {
     opacity: 1;
   }
 }
+ul{
+margin:0;
+padding:0;
+}
 
+.top-menu{
+	background:#fff;
+}
+.top-menu h4{
+	font-family: 'Raleway', sans-serif;
+	color:#ff5e51;
+	float:left;
+	font-weight:900;
+	margin: 14px 0 0 0;
+}
+.top-menu ul{
+	float:right;
+	margin-bottom:0;
+}
+.top-menu ul li{
+	display:inline-block;
+}
+.top-menu ul li a{
+	text-decoration: none;
+	color: #364356;
+	margin:0 1.5em;
+	font-size: 0.9em;
+	padding: 1em;
+	display: block;
+	font-weight: 600;
+}
+.top-menu ul li a:hover{
+	color:#FF6D6B;
+}
+.top-menu a span{
+	width:20px;
+	height:20px;
+	background:url('../images/social.png') no-repeat 0px 0px;
+	display:inline-block;
+	vertical-align: middle;
+}
