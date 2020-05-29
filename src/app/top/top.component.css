@@ -1,13 +1,22 @@
-p {
-  font-family: Lato;
-}
-
 .head-welcome {
-  color:#ffa488;
+  color:#ffefd7;
   font-size: 40px;
   text-align: center;
-  font-family: 'Segoe UI';
+  font-family: Segor UI;
+  background: #ffa488;
 }
+/*
+.header{
+	background:url(../images/banner.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height:650px;
+	position:relative;
+}*/
+
+/*класс для анимации*/
 .text-focus-in {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -24,28 +33,36 @@ p {
     opacity: 1;
   }
 }
+
+/*чтобы меню было напротив Kate*/
 ul{
 margin:0;
 padding:0;
 }
 
-.top-menu{
-	background:#fff;
-}
+/*Kate*/
 .top-menu h4{
 	font-family: 'Raleway', sans-serif;
 	color:#ff5e51;
 	float:left;
-	font-weight:900;
-	margin: 14px 0 0 0;
+	font-weight: 900;
+	margin: 15px 0 0 0;
 }
+/*Список*/
 .top-menu ul{
 	float:right;
-	margin-bottom:0;
+  //background:#ffc3a0;
+	//margin-bottom:0;
 }
+/*Пункты списка в строку*/
 .top-menu ul li{
 	display:inline-block;
 }
+
+.top-menu{
+	background:#ffc3a0;
+}
+
 .top-menu ul li a{
 	text-decoration: none;
 	color: #364356;
@@ -55,13 +72,7 @@ padding:0;
 	display: block;
 	font-weight: 600;
 }
+/*Цвет при наведении*/
 .top-menu ul li a:hover{
 	color:#FF6D6B;
-}
-.top-menu a span{
-	width:20px;
-	height:20px;
-	background:url('../images/social.png') no-repeat 0px 0px;
-	display:inline-block;
-	vertical-align: middle;
 }
