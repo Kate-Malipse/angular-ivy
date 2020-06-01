@@ -1,14 +1,18 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
 .head-welcome {
-  color:#FF5E51;
+  color:#FFB4A2;
   font-size: 40px;
   text-align: center;
-  -webkit-text-stroke-color:#FFF7EB;
+  -webkit-text-stroke-color:#6D6875;
   -webkit-text-stroke-width: 1px;
   font-family: Georgia, monospace;
-  
-  background:url(../../images/banner.jpg) no-repeat 0px 0px;
+  background: url(../../images/banner.jpg) no-repeat 0px 0px;
   background-size: cover; /*для растягивания страницы*/
-  min-height: 160px;
+  min-height: 400px;
   position:relative;
 }
 
@@ -16,7 +20,7 @@
 .text-focus-in {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 			animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	padding-top: 30px;
+	padding-top: 155px;
 }
 @keyframes text-focus-in {
   0% {
@@ -43,7 +47,7 @@ padding:0;
 
 /*Список*/
 .top-menu ul{
-  	background:#160F29;
+  background:#160F29;
 	margin-bottom:0;
 	text-align: center;
 }

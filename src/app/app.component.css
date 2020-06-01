@@ -1,8 +1,83 @@
-p {
-  font-family: Lato;
+body{
+	margin: 0;
+	padding: 0;
 }
+
+b {
+	background: #B5838D;
+    min-height: 1px;
+    width: 20%;
+    position: absolute;
+    left: 40%;
+}
+
+h2 {
+	text-align: center;
+	color: #F2545B;
+	margin: 0;
+	padding: 50px 10px 10px;
+}
+
 .about{
-	padding-left:10px;
-	position:relative;
-	text-align: left;
+	padding-top: 1px;
+	background-color: #F8EDEB;
+	margin: 0;
 }
+
+.about p {
+	font-family: Georgia, serif;
+	font-size: 20px;
+	color: #364356;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+	background-color: #F8EDEB;
+	padding: 100px 20%;
+	margin: 0;
+}
+.about p img {
+	height: 200px;
+	width: 200px;
+	float: right;	
+	margin-left: 10px;
+}
+/*-----*/
+
+.skills {
+	margin: 0;
+	padding: 0;
+	background-color: #F8EDEB;
+}
+
+.skill_class {
+	margin: 30px 0 0;
+	padding: 0 0 30px;
+}
+
+.skill_class h4 {
+	color: #B5838D;
+	display: inline-block;
+	width: 50%;
+	font-size: 25px;
+}
+
+.skill_class ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.skill_class_child {
+	margin: 0;
+	padding: 0;
+	width: 50%;
+	display: inline-block;
+}
+
+.skill_hard {
+	padding-left: 39%;
+}
+
+.skill_soft {
+	padding-left: 33%;
+}
+
