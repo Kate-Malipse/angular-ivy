@@ -2,7 +2,7 @@ p {
   font-family: Lato;
 }
 .about{
-	padding:0;
+	padding-left:10px;
 	position:relative;
-	text-align: center;
+	text-align: left;
 }
