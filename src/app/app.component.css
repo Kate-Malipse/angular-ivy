@@ -40,8 +40,8 @@ h2 {
 	float: right;	
 	margin-left: 10px;
 }
-/*-----*/
 
+/*-----*/
 .skills {
 	margin: 0;
 	padding: 0;
@@ -54,10 +54,11 @@ h2 {
 }
 
 .skill_class h4 {
-	color: #B5838D;
+	color: #FF5E51;
 	display: inline-block;
-	width: 50%;
+	width: 100%;
 	font-size: 25px;
+	text-align: center;
 }
 
 .skill_class ul {
@@ -66,18 +67,21 @@ h2 {
 	list-style-type: none;
 }
 
+.skill_class ul li {
+	font-size: 20px;
+    color: #766B76;
+    margin: 25px 0;
+    padding: 25px 0;
+    text-align: center;
+    border: 1px solid #FFB5A7;
+    background-color: #F9E7E4;
+    font-family: Verdana, sans-serif;
+    font-weight: 600;
+}
+
 .skill_class_child {
 	margin: 0;
-	padding: 0;
-	width: 50%;
-	display: inline-block;
+    padding: 0 10%;
+    width: 30%;
+    display: inline-block;
 }
-
-.skill_hard {
-	padding-left: 39%;
-}
-
-.skill_soft {
-	padding-left: 33%;
-}
-
